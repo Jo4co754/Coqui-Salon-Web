@@ -1,0 +1,35 @@
+// Ajustes para tablets
+@include responsive(tablet) {
+    .hero {
+        height: 70vh;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    .services-grid {
+        gap: 1.5rem;
+    }
+}
+
+// Ajustes para móviles
+@include responsive(mobile) {
+    .hero {
+        height: 60vh;
+        h1 {
+            font-size: 2.2rem;
+        }
+        .lead {
+            font-size: 1.2rem;
+        }
+    }
+    .info-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .card .card-img-top {
+        height: 180px;
+    }
+}

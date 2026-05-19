@@ -1,0 +1,28 @@
+// 1. Importar parciales en orden
+@import 'variables';
+@import 'mixins';
+@import 'components';
+@import 'layout';
+@import 'responsive';
+
+// 2. Estilos globales básicos
+body {
+    font-family: $font-main;
+    color: $text-dark;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.bg-light {
+    background-color: $light-beige !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}

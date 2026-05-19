@@ -1,0 +1,20 @@
+// Colores elegantes para la peluquería
+$primary: #8d6e63;      // Marrón beige principal
+$secondary: #5d4037;    // Marrón oscuro
+$dark: #3e2a1f;         // Navbar y footer
+$light-beige: #f5f0e6;  // Fondo claro
+$white: #ffffff;
+$text-dark: #333333;
+
+// Tipografía
+$font-main: system-ui, -apple-system, 'Segoe UI', Roboto, 'Open Sans', sans-serif;
+
+// Sombras
+$shadow-sm: 0 5px 15px rgba(0,0,0,0.1);
+$shadow-hover: 0 15px 30px rgba(0,0,0,0.15);
+$shadow-primary: 0 10px 20px rgba(141,110,99,0.4);
+
+// Breakpoints responsive
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
